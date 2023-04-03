@@ -14,7 +14,7 @@ const footerQuickLinks = [
 
   {
     display: "About",
-    url: "/#about",
+    url: "/about",
   },
   {
     display: "Blog",
