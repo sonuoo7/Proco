@@ -1,0 +1,16 @@
+.single__feature h2 i {
+    font-size: 2.5rem;
+}
+
+.single__feature h6 {
+    font-weight: 600;
+}
+
+.single__feature:hover {
+    background-color: #cfc4e7;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+    box-shadow: inset;
+    cursor: pointer;
+
+}

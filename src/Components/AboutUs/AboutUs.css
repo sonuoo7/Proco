@@ -1,0 +1,31 @@
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0a2b1e;
+}
+
+.counter__title {
+    font-size: 1rem;
+    color: #0a2b1e;
+    font-weight: 500;
+}
+
+.about__content {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.about__img img {
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.about__content h2 {
+    font-weight: 600;
+}
+.aboutUs{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    /* text-transform: capitalize; */
+}

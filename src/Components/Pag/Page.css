@@ -1,0 +1,29 @@
+.pages-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.image-container img {
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(-1deg);
+}
+
+.image-container img:nth-child(2n+1) {
+    grid-row: span 4;
+    transform: rotate(0deg);
+}
+
+.image-container img:nth-child(4n+1),
+.image-container img:nth-child(4n+4) {
+    grid-row: span 3;
+}

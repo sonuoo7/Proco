@@ -1,0 +1,51 @@
+.contact-form {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+    /* text-align: center; */
+    max-width: 600px;
+    margin: 100px;
+}
+
+.contact-form h3 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.success-message {
+    text-align: center;
+}
+
+.success-message h4 {
+    color: green;
+    margin-bottom: 1rem;
+}
+
+.success-message p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #5f5f5f;
+}
+
+.form-control {
+    border-radius: 1rem;
+}
+
+.btn-primary {
+    background-color: #c238a6;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ad2f94;
+    box-shadow: none;
+}

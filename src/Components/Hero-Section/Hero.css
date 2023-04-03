@@ -1,0 +1,41 @@
+/* animation */
+.Tilt {
+    max-width: 500px;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.Tilt-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* animation */
+.hero__content h2 {
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.hero__content {
+    padding-top: 80px;
+}
+
+.search {
+    width: 30%;
+    border: 1px solid #17bf9d44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.aboutUs {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    /* text-transform: capitalize; */
+}

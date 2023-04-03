@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+/* =========== base style ========= */
+     @font-face {
+       font-family: 'Menlo Regular';
+       src: local('Menlo Regular'), url('./Fonts/Menlo-Regular.woff') format('woff');
+     }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+  /* color: #fff; */
+}
+
+section,
+footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 3.5rem;
+  line-height: 70px;
+  color: #0a2b1e;
+  font-weight:600;
+}
+
+p {
+  color: #596b65;
+  font-size: 1.2rem;
+  line-height: 35px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+}
+
+button.btn {
+  background: #593E95;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 50px;
+}
+
+i {
+  color: #593E95;
+
+}
