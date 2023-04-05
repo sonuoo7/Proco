@@ -6,6 +6,8 @@ import heroImg1 from "../../assests/images/hero-img-1.png";
 import ChooseUs from "../ChooseUs/ChooseUs";
 import Features from "../FeatureSection/Feature";
 import "./Hero.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // import the CSS for AOS
 
 const Hero = () => {
   return (
@@ -14,7 +16,11 @@ const Hero = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="hero__content">
-              <h1 className=" mt-4 mb-4 hero__title">
+              <h1
+                className=" mt-4 mb-4 hero__title"
+                data-aos="fade-up "
+                data-aos-duration="2000"
+              >
                 Build it Beautiful. <br /> & Unparalleled.
               </h1>
               <p className="mb-4">

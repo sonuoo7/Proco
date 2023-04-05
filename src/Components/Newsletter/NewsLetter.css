@@ -12,6 +12,7 @@
 .subscribe input {
     border: none;
     outline: none;
+    width: 90%;
 }
 
 .subscribe {

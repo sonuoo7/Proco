@@ -12,10 +12,20 @@ const ChooseUs = () => {
   return (
     <section>
       <Container>
-      <h2 className="text-center chooseus">Why Choose Us</h2>
+        <h2
+          className="text-center chooseus"
+          data-aos="fade-up-right"
+          data-aos-duration="2000"
+        >
+          Why Choose Us
+        </h2>
         <Row>
           <Col lg="6" md="6">
-            <div className="choose__img">
+            <div
+              className="choose__img"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               {showVideo ? (
                 <ReactPlayer
                   url="https://www.youtube.com/watch?v=wAOldLWIDSM"
@@ -45,12 +55,15 @@ const ChooseUs = () => {
                 <div className="choose__icon">
                   <i className="ri-compass-3-fill"></i>
                 </div>
-                <div className="choose__text">
+                <div
+                  className="choose__text"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                >
                   <h3>Expert Guidance</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam feugiat ante velit, sit amet feugiat quam tristique
-                   
                   </p>
                 </div>
               </div>
@@ -58,7 +71,11 @@ const ChooseUs = () => {
                 <div className="choose__icon">
                   <i className="ri-star-line"></i>
                 </div>
-                <div className="choose__text">
+                <div
+                  className="choose__text"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                >
                   <h3>Customer Satisfaction</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

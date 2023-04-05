@@ -3,7 +3,7 @@
 }
 
 .single__feature h6 {
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .single__feature:hover {
@@ -13,4 +13,12 @@
     box-shadow: inset;
     cursor: pointer;
 
+}
+.single__feature {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.single__feature:last-child {
+    margin-right: 0;
 }
